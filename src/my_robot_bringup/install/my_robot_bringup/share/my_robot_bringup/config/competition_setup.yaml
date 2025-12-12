@@ -1,0 +1,43 @@
+# worlds/config/competition_setup.yaml
+# 比赛配置：将你的 gz_world.yaml 内容适配到这里
+
+competitions:
+  rmul_2025:
+    world_file: "rmul_2025.sdf"
+    map_file: "rmul_2025.yaml"  # 对应 maps/simulation/rmul_2025.yaml
+    
+    robots:
+      - name: "red_standard_robot1"
+        color: "red"
+        model: "standard_robot"
+        x_pose: -4.8
+        y_pose: 3.5
+        z_pose: 0.28
+        yaw: 0.0
+        team: "red"
+        enabled: true
+        
+      # - name: "blue_standard_robot1"
+      #   color: "blue"
+      #   model: "standard_robot"
+      #   x_pose: 4.8
+      #   y_pose: -3.5
+      #   z_pose: 0.28
+      #   yaw: 3.14
+      #   team: "blue"
+      #   enabled: false
+
+  rmuc_2025:
+    world_file: "rmuc_2025.sdf"
+    map_file: "rmuc_2025.yaml"
+    
+    robots:
+      - name: "red_standard_robot1"
+        color: "red"
+        model: "standard_robot"
+        x_pose: 3.4
+        y_pose: 9.5
+        z_pose: 0.28
+        yaw: 0.0
+        team: "red"
+        enabled: true

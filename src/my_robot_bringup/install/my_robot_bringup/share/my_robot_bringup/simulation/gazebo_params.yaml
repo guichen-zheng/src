@@ -1,0 +1,36 @@
+# config/simulation/gazebo_params.yaml
+gazebo:
+  ros__parameters:
+    # Gazebo设置
+    use_sim_time: true
+    gui: true
+    verbose: false
+    physics_engine: "ode"
+    
+    # 物理参数
+    max_step_size: 0.001
+    real_time_update_rate: 1000
+    max_contacts: 20
+    
+    # 世界参数
+    world_name: "default"
+    
+    # ROS-Gazebo桥接话题
+    bridges:
+      - ros_topic_name: "/clock"
+        gazebo_topic_name: "/world/default/clock"
+        ros_type: "rosgraph_msgs/Clock"
+        gazebo_type: "ignition.msgs.Clock"
+        direction: "gazebo_to_ros"
+        
+      - ros_topic_name: "/model_states"
+        gazebo_topic_name: "/world/default/model_states"
+        ros_type: "gazebo_msgs/ModelStates"
+        gazebo_type: "ignition.msgs.ModelStates"
+        direction: "gazebo_to_ros"
+        
+      - ros_topic_name: "/cmd_vel"
+        gazebo_topic_name: "/model/robot/cmd_vel"
+        ros_type: "geometry_msgs/Twist"
+        gazebo_type: "ignition.msgs.Twist"
+        direction: "ros_to_gazebo"
