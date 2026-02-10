@@ -23,17 +23,22 @@ pb_option1_nav_vision/
 │   └── maps/                         # 保存的地图文件
 │
 ├── pb_option1_vision/                # 新增：视觉识别与物体跟随
-│   ├── src/
-│   │   ├── object_detector_node.cpp / object_detector.py     # YOLO / yolov8 / MobileNet-SSD 等
-│   │   ├── follow_behavior_node.py                           # 跟随逻辑
-│   │   └── command_interpreter_node.py                       # 物体 → 动作映射
-│   ├── config/
-│   │   ├── detector_params.yaml      # 模型路径、置信度、类别等
-│   │   └── follow_params.yaml        # 跟随距离、速度、PID 等
-│   ├── launch/
-│   │   └── vision_and_follow.launch.py
-│   └── models/                       # 存放训练好的 .pt / .onnx 模型（或预训练模型）
-│
+├── include/                        # 头文件（可选，如果有自定义类）
+│   └── pb_option1_vision/
+│       └── object_detector.hpp     # 示例头文件
+├── src/
+│   ├── object_detector_node.cpp    # 主节点：检测物体
+│   ├── follow_behavior_node.cpp    # 跟随逻辑
+│   └── command_interpreter_node.cpp # 物体 → 动作映射
+├── config/
+│   ├── detector_params.yaml        # HSV 阈值等（用 YAML-cpp 加载）
+│   └── follow_params.yaml          # 跟随参数
+├── launch/
+│   └── vision_and_follow.launch.py # 启动文件仍用 Python（方便）
+├── CMakeLists.txt                  # 构建文件（必须，用 ament_cmake）
+├── package.xml                     # 包描述（添加 C++ 依赖）
+└── README.md
+|
 ├── pb_option1_sim/                   # 仿真专用（基于 pb_rm_simulation 精简）
 │   ├── worlds/                       # 自定义仿真场景（放水杯、苹果、香蕉模型等）
 │   └── launch/
