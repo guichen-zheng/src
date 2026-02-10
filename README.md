@@ -1,58 +1,47 @@
 # the_final_exam
 ## 总的框架如下
-```
-src/
-|——my_robot_description                    #机器人描述文件
-|——my_robot_bringup                        #实现对robot、world的调用，导航、建图实现
-|——my_decetor                              #实现物品识别
-|——deceted_cmd                             #接收decetor，然后调用nav2实现相应动作
-```
-目前结构如此，后续可作出相应更改
-### 一、my_robot_description
-使用仓库中已有模型，这里不多赘述 ...
-### 二、my_robot_bringup
-考虑到分仿真和现实调用，决定使用两类launch主文件，分别实现仿真和现实，还有一个launch文件打开slam建图。
 文件结构如下：
 ```
-my_robot_bringup/
-├── CMakeLists.txt
-├── package.xml
-├── launch/                    # Python启动文件
-│   ├── simulation/
-│   │   ├── simulation.launch.py      # 仿真主启动文件
-│   │   ├── simulation_nav.launch.py # 仿真导航启动
-│   │   └── simulation_slam.launch.py # 仿真SLAM启动
-│   ├── real_robot/
-│   │   ├── real_robot.launch.py     # 实物主启动文件
-│   │   ├── real_nav.launch.py       # 实物导航启动
-│   │   └── real_slam.launch.py      # 实物SLAM启动
-│   └── common/
-│       └── navigation_core.launch.py # 核心导航启动
-├── config/
-│   ├── simulation/
-│   │   ├── nav2_params.yaml         # 仿真导航参数
-│   │   └── slam_params.yaml         # 仿真SLAM参数
-│   └── real_robot/
-│       ├── nav2_params.yaml         # 实物导航参数
-│       └── slam_params.yaml         # 实物SLAM参数
-├── worlds/                    # Gazebo世界文件
-│   └── 
-├── maps/                      # 地图文件
-│   ├── simulation/
-│   │   └── (仿真的地图文件.yaml和.pgm)
-│   └── real_robot/
-│       └── (实物的地图文件.yaml和.pgm)
-├── include/                  # C++头文件
-│   └── my_robot_bringup/
-│       ├── navigation_core.hpp
-│       ├── slam_processor.hpp
-│       └── map_manager.hpp
-├── src/                      # C++源文件
-│   ├── navigation_core.cpp   # 导航核心功能
-│   ├── slam_processor.cpp    # SLAM处理
-│   ├── map_manager.cpp       # 地图管理
-│   └── main.cpp              # 主程序
-└── test/                     # 测试文件
-    └── test_navigation.cpp
+pb_option1_nav_vision/
+├── pb_option1_bringup/               # 启动文件集合
+│   ├── launch/
+│   │   ├── sim.launch.py             # 仿真启动
+│   │   ├── real.launch.py            # 实车启动
+│   │   └── joystick.launch.py        # 可选：手柄遥控调试用
+│
+├── pb_option1_description/           # URDF / xacro 机器人模型（基本保持原样）
+│
+├── pb_option1_navigation/            # 核心导航部分（从 pb2025_sentry_nav 精简而来）
+│   ├── config/
+│   │   ├── nav2_params.yaml          # nav2 参数（控制器、规划器、BT等）
+│   │   ├── slam_params.yaml          # slam 参数（通常用 cartographer 或 slam_toolbox）
+│   │   └── amcl_params.yaml          # 定位参数（仿真和实车可能不同）
+│   ├── launch/
+│   │   ├── slam.launch.py
+│   │   ├── localization.launch.py
+│   │   └── nav2_bringup.launch.py
+│   └── maps/                         # 保存的地图文件
+│
+├── pb_option1_vision/                # 新增：视觉识别与物体跟随
+│   ├── src/
+│   │   ├── object_detector_node.cpp / object_detector.py     # YOLO / yolov8 / MobileNet-SSD 等
+│   │   ├── follow_behavior_node.py                           # 跟随逻辑
+│   │   └── command_interpreter_node.py                       # 物体 → 动作映射
+│   ├── config/
+│   │   ├── detector_params.yaml      # 模型路径、置信度、类别等
+│   │   └── follow_params.yaml        # 跟随距离、速度、PID 等
+│   ├── launch/
+│   │   └── vision_and_follow.launch.py
+│   └── models/                       # 存放训练好的 .pt / .onnx 模型（或预训练模型）
+│
+├── pb_option1_sim/                   # 仿真专用（基于 pb_rm_simulation 精简）
+│   ├── worlds/                       # 自定义仿真场景（放水杯、苹果、香蕉模型等）
+│   └── launch/
+│       └── gazebo_with_objects.launch.py
+└── README.md
 ```
 目前结构如此，后续可作出相应更改
+### 一、pb_option1_bringup
+存放launch启动文件
+### 二、pb_option1_description
+仓库中已有模型，此处不再赘述

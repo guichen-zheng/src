@@ -1,7 +1,0 @@
-# 这是一个占位说明，实际需要：
-# 1. 从Gazebo仿真中导出地图，或
-# 2. 使用比赛提供的官方地图，或
-# 3. 自己创建地图图像文件
-
-# 地图生成方法：
-# ros2 run nav2_map_server map_saver_cli -f maps/simulation/rmul_2025
