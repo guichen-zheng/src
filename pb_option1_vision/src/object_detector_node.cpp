@@ -44,7 +44,7 @@ private:
 
       if (!contours.empty()) {
         auto largest = *std::max_element(contours.begin(), contours.end(),
-                                         <a href="const auto& a, const auto& b" target="_blank" rel="noopener noreferrer nofollow"></a> { return cv::contourArea(a) < cv::contourArea(b); });
+        [](const auto& a, const auto& b) { return cv::contourArea(a) < cv::contourArea(b); });
         cv::Rect bbox = cv::boundingRect(largest);
 
         vision_msgs::msg::Detection2D det;

@@ -1,0 +1,10 @@
+hsv_ranges:
+  apple:
+    lower: [0, 100, 100]  # 红色苹果 HSV
+    upper: [10, 255, 255]
+  cup:
+    lower: [110, 50, 50]  # 蓝色水杯
+    upper: [130, 255, 255]
+  banana:
+    lower: [20, 100, 100]  # 黄色香蕉
+    upper: [30, 255, 255]

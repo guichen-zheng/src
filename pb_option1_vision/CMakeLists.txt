@@ -31,9 +31,9 @@ add_executable(command_interpreter src/command_interpreter_node.cpp)
 ament_target_dependencies(command_interpreter rclcpp geometry_msgs vision_msgs yaml-cpp)
 
 
-target_link_libraries(object_detector PRIVATE yaml-cpp ament_index_cpp::ament_index_cpp ${OpenCV_LIBRARIES})
-target_link_libraries(follow_behavior PRIVATE yaml-cpp ament_index_cpp::ament_index_cpp)
-target_link_libraries(command_interpreter PRIVATE yaml-cpp ament_index_cpp::ament_index_cpp)
+target_link_libraries(object_detector yaml-cpp ament_index_cpp::ament_index_cpp ${OpenCV_LIBRARIES})
+target_link_libraries(follow_behavior yaml-cpp ament_index_cpp::ament_index_cpp)
+target_link_libraries(command_interpreter yaml-cpp ament_index_cpp::ament_index_cpp)
 
 # 安装
 install(TARGETS
