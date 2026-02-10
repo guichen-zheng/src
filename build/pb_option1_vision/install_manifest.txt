@@ -1,7 +1,7 @@
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/object_detector
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/follow_behavior
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/command_interpreter
-/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/launch/vision_and_follow.launch,py
+/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/launch/vision_and_follow.launch.py
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/detector_params.yaml
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/follow_params.yaml
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/package_run_dependencies/pb_option1_vision

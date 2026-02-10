@@ -11,7 +11,7 @@ class ObjectDetector : public rclcpp::Node {
 public:
   ObjectDetector() : Node("object_detector") {
     sub_ = this->create_subscription<sensor_msgs::msg::Image>(
-      "/camera/image_raw", 10, std::bind(&ObjectDetector::imageCallback, this, std::placeholders::_1));
+      "/image_raw", 10, std::bind(&ObjectDetector::imageCallback, this, std::placeholders::_1));
     pub_ = this->create_publisher<vision_msgs::msg::Detection2DArray>("/detected_objects", 10);
 
     // 动态获取路径

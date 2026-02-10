@@ -50,3 +50,24 @@ pb_option1_nav_vision/
 存放launch启动文件
 ### 二、pb_option1_description
 仓库中已有模型，此处不再赘述
+### 三、 pb_option1_navigation
+### 四、 pb_option1_vision
+#### 调试流程：
+1. 编译
+```
+colcon build --packages-select pb_option1_vision
+```
+2. 先开启另一终端，启动相机节点(ros2自带实例)
+```
+ros2 run image_tools cam2image --ros-args -p device_id:=0
+```
+3. 回到原终端
+```
+source install/setup.bash
+ros2 launch pb_option1_vision vision_and_follow.launch.py
+```
+4. 启动rviz2查看效果
+```
+ros2 run rviz2 rviz2
+```
+在rviz2里添加(by topic)/image_raw
