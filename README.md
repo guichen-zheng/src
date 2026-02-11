@@ -70,4 +70,4 @@ ros2 launch pb_option1_vision vision_and_follow.launch.py
 ```
 ros2 run rviz2 rviz2
 ```
-在rviz2里添加(by topic)/image_raw
+在rviz2里添加(by topic)/image

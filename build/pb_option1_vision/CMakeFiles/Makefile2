@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/guichen/Documents/the_final_exam/the_final_exam/build/p
 all: CMakeFiles/object_detector.dir/all
 all: CMakeFiles/follow_behavior.dir/all
 all: CMakeFiles/command_interpreter.dir/all
+all: CMakeFiles/test_hsv_with_morph.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/pb_option1_vision_uninstall.dir/clean
 clean: CMakeFiles/object_detector.dir/clean
 clean: CMakeFiles/follow_behavior.dir/clean
 clean: CMakeFiles/command_interpreter.dir/clean
+clean: CMakeFiles/test_hsv_with_morph.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -209,6 +211,32 @@ command_interpreter: CMakeFiles/command_interpreter.dir/rule
 CMakeFiles/command_interpreter.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interpreter.dir/build.make CMakeFiles/command_interpreter.dir/clean
 .PHONY : CMakeFiles/command_interpreter.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_hsv_with_morph.dir
+
+# All Build rule for target.
+CMakeFiles/test_hsv_with_morph.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hsv_with_morph.dir/build.make CMakeFiles/test_hsv_with_morph.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hsv_with_morph.dir/build.make CMakeFiles/test_hsv_with_morph.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision/CMakeFiles --progress-num=7,8 "Built target test_hsv_with_morph"
+.PHONY : CMakeFiles/test_hsv_with_morph.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_hsv_with_morph.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_hsv_with_morph.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision/CMakeFiles 0
+.PHONY : CMakeFiles/test_hsv_with_morph.dir/rule
+
+# Convenience name for target.
+test_hsv_with_morph: CMakeFiles/test_hsv_with_morph.dir/rule
+.PHONY : test_hsv_with_morph
+
+# clean rule for target.
+CMakeFiles/test_hsv_with_morph.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hsv_with_morph.dir/build.make CMakeFiles/test_hsv_with_morph.dir/clean
+.PHONY : CMakeFiles/test_hsv_with_morph.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

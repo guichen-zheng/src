@@ -36,13 +36,16 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision
-[ 50%] [32mBuilding CXX object CMakeFiles/follow_behavior.dir/src/follow_behavior_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/command_interpreter.dir/src/command_interpreter_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o[0m
-[ 66%] [32m[1mLinking CXX executable command_interpreter[0m
-[ 83%] [32m[1mLinking CXX executable follow_behavior[0m
-[ 83%] Built target command_interpreter
-[ 83%] Built target follow_behavior
+[ 12%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/command_interpreter.dir/src/command_interpreter_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/follow_behavior.dir/src/follow_behavior_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_hsv_with_morph.dir/src/test_hsv_with_morph.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_hsv_with_morph[0m
+[ 62%] Built target test_hsv_with_morph
+[ 75%] [32m[1mLinking CXX executable command_interpreter[0m
+[ 87%] [32m[1mLinking CXX executable follow_behavior[0m
+[ 87%] Built target command_interpreter
+[ 87%] Built target follow_behavior
 [100%] [32m[1mLinking CXX executable object_detector[0m
 [100%] Built target object_detector
 -- Install configuration: ""

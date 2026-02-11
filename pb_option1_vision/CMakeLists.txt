@@ -30,10 +30,12 @@ ament_target_dependencies(follow_behavior rclcpp geometry_msgs vision_msgs yaml-
 add_executable(command_interpreter src/command_interpreter_node.cpp)
 ament_target_dependencies(command_interpreter rclcpp geometry_msgs vision_msgs yaml-cpp)
 
+add_executable(test_hsv_with_morph src/test_hsv_with_morph.cpp)
 
 target_link_libraries(object_detector yaml-cpp ament_index_cpp::ament_index_cpp ${OpenCV_LIBRARIES})
 target_link_libraries(follow_behavior yaml-cpp ament_index_cpp::ament_index_cpp)
 target_link_libraries(command_interpreter yaml-cpp ament_index_cpp::ament_index_cpp)
+target_link_libraries(test_hsv_with_morph ${OpenCV_LIBS})
 
 # 安装
 install(TARGETS

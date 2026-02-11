@@ -1,10 +1,17 @@
 hsv_ranges:
   apple:
-    lower: [0, 100, 100]  # 红色苹果 HSV
-    upper: [10, 255, 255]
-  cup:
-    lower: [110, 50, 50]  # 蓝色水杯
-    upper: [130, 255, 255]
+    lower1: [0, 100, 100]  # 加lower1/upper1/lower2/upper2处理红色
+    upper1: [15, 255, 255]
+    lower2: [170, 100, 100]
+    upper2: [180, 255, 255]
+    min_area: 2000
+    min_circularity: 0.7  # 圆形
+    aspect_ratio_min: 0.8
+    aspect_ratio_max: 1.2
   banana:
-    lower: [20, 100, 100]  # 黄色香蕉
+    lower: [20, 100, 100]
     upper: [30, 255, 255]
+    min_area: 1500
+    min_circularity: 0.3  # 细长<0.5
+    aspect_ratio_min: 2.0  # 长>宽
+    aspect_ratio_max: 5.0
