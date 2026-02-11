@@ -1,0 +1,82 @@
+[0.006s] Invoking command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_vision -DCMAKE_INSTALL_PREFIX=/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.071s] -- The CXX compiler identification is GNU 11.4.0
+[0.075s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.120s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.279s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.333s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.357s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.360s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.405s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.407s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.459s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.478s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.505s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.510s] -- Looking for pthread.h
+[0.556s] -- Looking for pthread.h - found
+[0.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.601s] -- Found Threads: TRUE  
+[0.634s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.652s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.659s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.670s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.672s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.727s] -- Configuring done
+[0.741s] -- Generating done
+[0.746s] -- Build files have been written to: /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision
+[0.754s] Invoked command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_vision -DCMAKE_INSTALL_PREFIX=/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision
+[0.755s] Invoking command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision -- -j16 -l16
+[0.783s] [ 16%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o[0m
+[0.783s] [ 50%] [32mBuilding CXX object CMakeFiles/follow_behavior.dir/src/follow_behavior_node.cpp.o[0m
+[0.783s] [ 50%] [32mBuilding CXX object CMakeFiles/command_interpreter.dir/src/command_interpreter_node.cpp.o[0m
+[6.530s] [ 66%] [32m[1mLinking CXX executable follow_behavior[0m
+[6.532s] [ 83%] [32m[1mLinking CXX executable command_interpreter[0m
+[6.833s] [ 83%] Built target follow_behavior
+[6.836s] [ 83%] Built target command_interpreter
+[8.050s] [100%] [32m[1mLinking CXX executable object_detector[0m
+[8.493s] [100%] Built target object_detector
+[8.503s] Invoked command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision -- -j16 -l16
+[8.509s] Invoking command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision
+[8.514s] -- Install configuration: ""
+[8.514s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/object_detector
+[8.517s] -- Set runtime path of "/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/object_detector" to ""
+[8.517s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/command_interpreter
+[8.520s] -- Set runtime path of "/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/command_interpreter" to ""
+[8.520s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/follow_behavior
+[8.522s] -- Set runtime path of "/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/follow_behavior" to ""
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/launch
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/launch/vision_and_follow.launch.py
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/detector_params.yaml
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/follow_params.yaml
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/rviz
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/rviz/vision_config.rviz
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/package_run_dependencies/pb_option1_vision
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/parent_prefix_path/pb_option1_vision
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/ament_prefix_path.sh
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/ament_prefix_path.dsv
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/path.sh
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/path.dsv
+[8.522s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.bash
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.sh
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.zsh
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.dsv
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/package.dsv
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/packages/pb_option1_vision
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/cmake/pb_option1_visionConfig.cmake
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/cmake/pb_option1_visionConfig-version.cmake
+[8.523s] -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/package.xml
+[8.524s] Invoked command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision

@@ -272,7 +272,8 @@
 			"paths" : 
 			[
 				"launch",
-				"config"
+				"config",
+				"rviz"
 			],
 			"type" : "directory"
 		},

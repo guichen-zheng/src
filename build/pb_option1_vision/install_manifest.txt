@@ -4,6 +4,7 @@
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/launch/vision_and_follow.launch.py
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/detector_params.yaml
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/follow_params.yaml
+/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/rviz/vision_config.rviz
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/package_run_dependencies/pb_option1_vision
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/parent_prefix_path/pb_option1_vision
 /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/ament_prefix_path.sh

@@ -36,9 +36,9 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision
-[ 50%] [32mBuilding CXX object CMakeFiles/command_interpreter.dir/src/command_interpreter_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/follow_behavior.dir/src/follow_behavior_node.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/command_interpreter.dir/src/command_interpreter_node.cpp.o[0m
 [ 66%] [32m[1mLinking CXX executable follow_behavior[0m
 [ 83%] [32m[1mLinking CXX executable command_interpreter[0m
 [ 83%] Built target follow_behavior
@@ -57,6 +57,8 @@
 -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config
 -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/detector_params.yaml
 -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/follow_params.yaml
+-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/rviz
+-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/rviz/vision_config.rviz
 -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/package_run_dependencies/pb_option1_vision
 -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/parent_prefix_path/pb_option1_vision
 -- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/ament_prefix_path.sh

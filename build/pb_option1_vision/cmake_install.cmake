@@ -106,6 +106,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_vision" TYPE DIRECTORY FILES
     "/home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_vision/launch"
     "/home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_vision/config"
+    "/home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_vision/rviz"
     )
 endif()
 

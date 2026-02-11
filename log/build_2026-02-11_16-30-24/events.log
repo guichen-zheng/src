@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (-) JobUnselected: {'identifier': 'pb2025_robot_description'}
+[0.000133] (pb_option1_vision) JobQueued: {'identifier': 'pb_option1_vision', 'dependencies': OrderedDict()}
+[0.000355] (pb_option1_vision) JobStarted: {'identifier': 'pb_option1_vision'}
+[0.004808] (pb_option1_vision) JobProgress: {'identifier': 'pb_option1_vision', 'progress': 'cmake'}
+[0.005167] (pb_option1_vision) Command: {'cmd': ['/usr/bin/cmake', '/home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_vision', '-DCMAKE_INSTALL_PREFIX=/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision'], 'cwd': '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'guichen'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guichen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/guichen/Documents/the_final_exam'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2090'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2442'), ('BUNDLED_DEBUGPY_PATH', '/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5316'), ('COLCON_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'guichen'), ('JOURNAL_STREAM', '8:65556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guichen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/guichen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/guichen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/guichen/.local/bin:/opt/ros/humble/bin:/home/guichen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/guichen-Lenovo-Legion-Y7000P2021:@/tmp/.ICE-unix/2415,unix/guichen-Lenovo-Legion-Y7000P2021:/tmp/.ICE-unix/2415'), ('INVOCATION_ID', '672e0d9bd9864387b37f4bf4cd0e2d24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e67b94bd77ee7e1c.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/guichen/.config/Code/User/workspaceStorage/7a940ca8bae6d5acca664b04c1df963c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-420e6f7791.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/opt/ros/humble')]), 'shell': False}
+[0.039046] (pb_option1_vision) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.071193] (pb_option1_vision) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.075261] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099869] (-) TimerEvent: {}
+[0.115887] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.120671] (pb_option1_vision) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.120789] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.121028] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.123009] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.179368] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.184116] (pb_option1_vision) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.184229] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.184549] (pb_option1_vision) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.186003] (pb_option1_vision) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199989] (-) TimerEvent: {}
+[0.279010] (pb_option1_vision) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300076] (-) TimerEvent: {}
+[0.333443] (pb_option1_vision) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.357461] (pb_option1_vision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.360265] (pb_option1_vision) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.364908] (pb_option1_vision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.371742] (pb_option1_vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.380951] (pb_option1_vision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400178] (-) TimerEvent: {}
+[0.405564] (pb_option1_vision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.407082] (pb_option1_vision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.458950] (pb_option1_vision) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.478192] (pb_option1_vision) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.500303] (-) TimerEvent: {}
+[0.504981] (pb_option1_vision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.510035] (pb_option1_vision) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.556605] (pb_option1_vision) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.556877] (pb_option1_vision) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600454] (-) TimerEvent: {}
+[0.600634] (pb_option1_vision) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.601388] (pb_option1_vision) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.633852] (pb_option1_vision) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.651953] (pb_option1_vision) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.658836] (pb_option1_vision) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[0.669816] (pb_option1_vision) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.671883] (pb_option1_vision) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.700518] (-) TimerEvent: {}
+[0.727084] (pb_option1_vision) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.741339] (pb_option1_vision) StdoutLine: {'line': b'-- Generating done\n'}
+[0.746383] (pb_option1_vision) StdoutLine: {'line': b'-- Build files have been written to: /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision\n'}
+[0.753952] (pb_option1_vision) CommandEnded: {'returncode': 0}
+[0.754583] (pb_option1_vision) JobProgress: {'identifier': 'pb_option1_vision', 'progress': 'build'}
+[0.754600] (pb_option1_vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision', '--', '-j16', '-l16'], 'cwd': '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'guichen'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guichen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/guichen/Documents/the_final_exam'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2090'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2442'), ('BUNDLED_DEBUGPY_PATH', '/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5316'), ('COLCON_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'guichen'), ('JOURNAL_STREAM', '8:65556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guichen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/guichen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/guichen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/guichen/.local/bin:/opt/ros/humble/bin:/home/guichen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/guichen-Lenovo-Legion-Y7000P2021:@/tmp/.ICE-unix/2415,unix/guichen-Lenovo-Legion-Y7000P2021:/tmp/.ICE-unix/2415'), ('INVOCATION_ID', '672e0d9bd9864387b37f4bf4cd0e2d24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e67b94bd77ee7e1c.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/guichen/.config/Code/User/workspaceStorage/7a940ca8bae6d5acca664b04c1df963c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-420e6f7791.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/opt/ros/humble')]), 'shell': False}
+[0.782837] (pb_option1_vision) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o\x1b[0m\n'}
+[0.783062] (pb_option1_vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/follow_behavior.dir/src/follow_behavior_node.cpp.o\x1b[0m\n'}
+[0.783168] (pb_option1_vision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/command_interpreter.dir/src/command_interpreter_node.cpp.o\x1b[0m\n'}
+[0.800614] (-) TimerEvent: {}
+[0.900881] (-) TimerEvent: {}
+[1.001141] (-) TimerEvent: {}
+[1.101394] (-) TimerEvent: {}
+[1.201763] (-) TimerEvent: {}
+[1.302041] (-) TimerEvent: {}
+[1.402300] (-) TimerEvent: {}
+[1.502575] (-) TimerEvent: {}
+[1.602833] (-) TimerEvent: {}
+[1.703094] (-) TimerEvent: {}
+[1.803377] (-) TimerEvent: {}
+[1.903723] (-) TimerEvent: {}
+[2.003982] (-) TimerEvent: {}
+[2.104262] (-) TimerEvent: {}
+[2.204537] (-) TimerEvent: {}
+[2.304788] (-) TimerEvent: {}
+[2.405050] (-) TimerEvent: {}
+[2.505323] (-) TimerEvent: {}
+[2.605597] (-) TimerEvent: {}
+[2.705928] (-) TimerEvent: {}
+[2.806206] (-) TimerEvent: {}
+[2.906472] (-) TimerEvent: {}
+[3.006817] (-) TimerEvent: {}
+[3.107138] (-) TimerEvent: {}
+[3.207409] (-) TimerEvent: {}
+[3.307663] (-) TimerEvent: {}
+[3.407917] (-) TimerEvent: {}
+[3.508263] (-) TimerEvent: {}
+[3.608539] (-) TimerEvent: {}
+[3.708800] (-) TimerEvent: {}
+[3.809078] (-) TimerEvent: {}
+[3.909379] (-) TimerEvent: {}
+[4.009641] (-) TimerEvent: {}
+[4.109996] (-) TimerEvent: {}
+[4.210335] (-) TimerEvent: {}
+[4.310688] (-) TimerEvent: {}
+[4.410954] (-) TimerEvent: {}
+[4.511268] (-) TimerEvent: {}
+[4.611606] (-) TimerEvent: {}
+[4.711992] (-) TimerEvent: {}
+[4.812311] (-) TimerEvent: {}
+[4.912644] (-) TimerEvent: {}
+[5.012893] (-) TimerEvent: {}
+[5.113212] (-) TimerEvent: {}
+[5.213515] (-) TimerEvent: {}
+[5.313853] (-) TimerEvent: {}
+[5.414177] (-) TimerEvent: {}
+[5.514423] (-) TimerEvent: {}
+[5.614683] (-) TimerEvent: {}
+[5.714910] (-) TimerEvent: {}
+[5.815145] (-) TimerEvent: {}
+[5.915372] (-) TimerEvent: {}
+[6.015599] (-) TimerEvent: {}
+[6.115865] (-) TimerEvent: {}
+[6.216108] (-) TimerEvent: {}
+[6.316402] (-) TimerEvent: {}
+[6.416748] (-) TimerEvent: {}
+[6.517060] (-) TimerEvent: {}
+[6.530238] (pb_option1_vision) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable follow_behavior\x1b[0m\n'}
+[6.531927] (pb_option1_vision) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable command_interpreter\x1b[0m\n'}
+[6.617214] (-) TimerEvent: {}
+[6.717560] (-) TimerEvent: {}
+[6.817910] (-) TimerEvent: {}
+[6.833455] (pb_option1_vision) StdoutLine: {'line': b'[ 83%] Built target follow_behavior\n'}
+[6.835833] (pb_option1_vision) StdoutLine: {'line': b'[ 83%] Built target command_interpreter\n'}
+[6.918044] (-) TimerEvent: {}
+[7.018311] (-) TimerEvent: {}
+[7.118565] (-) TimerEvent: {}
+[7.218805] (-) TimerEvent: {}
+[7.319058] (-) TimerEvent: {}
+[7.419309] (-) TimerEvent: {}
+[7.519563] (-) TimerEvent: {}
+[7.619802] (-) TimerEvent: {}
+[7.720052] (-) TimerEvent: {}
+[7.820315] (-) TimerEvent: {}
+[7.920582] (-) TimerEvent: {}
+[8.020840] (-) TimerEvent: {}
+[8.050556] (pb_option1_vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable object_detector\x1b[0m\n'}
+[8.120937] (-) TimerEvent: {}
+[8.221242] (-) TimerEvent: {}
+[8.321526] (-) TimerEvent: {}
+[8.421775] (-) TimerEvent: {}
+[8.493385] (pb_option1_vision) StdoutLine: {'line': b'[100%] Built target object_detector\n'}
+[8.503022] (pb_option1_vision) CommandEnded: {'returncode': 0}
+[8.503480] (pb_option1_vision) JobProgress: {'identifier': 'pb_option1_vision', 'progress': 'install'}
+[8.508893] (pb_option1_vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision'], 'cwd': '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'guichen'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guichen'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/guichen/Documents/the_final_exam'), ('TERM_PROGRAM_VERSION', '1.107.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2090'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2442'), ('BUNDLED_DEBUGPY_PATH', '/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5316'), ('COLCON_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'guichen'), ('JOURNAL_STREAM', '8:65556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guichen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/guichen/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/guichen/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/guichen/.local/bin:/opt/ros/humble/bin:/home/guichen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/guichen-Lenovo-Legion-Y7000P2021:@/tmp/.ICE-unix/2415,unix/guichen-Lenovo-Legion-Y7000P2021:/tmp/.ICE-unix/2415'), ('INVOCATION_ID', '672e0d9bd9864387b37f4bf4cd0e2d24'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/guichen/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e67b94bd77ee7e1c.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/guichen/.config/Code/User/workspaceStorage/7a940ca8bae6d5acca664b04c1df963c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-420e6f7791.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/opt/ros/humble')]), 'shell': False}
+[8.514032] (pb_option1_vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.514206] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/object_detector\n'}
+[8.517347] (pb_option1_vision) StdoutLine: {'line': b'-- Set runtime path of "/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/object_detector" to ""\n'}
+[8.517407] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/command_interpreter\n'}
+[8.520001] (pb_option1_vision) StdoutLine: {'line': b'-- Set runtime path of "/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/command_interpreter" to ""\n'}
+[8.520048] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/follow_behavior\n'}
+[8.521841] (-) TimerEvent: {}
+[8.522003] (pb_option1_vision) StdoutLine: {'line': b'-- Set runtime path of "/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/lib/pb_option1_vision/follow_behavior" to ""\n'}
+[8.522089] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/launch\n'}
+[8.522131] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/launch/vision_and_follow.launch.py\n'}
+[8.522172] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config\n'}
+[8.522234] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/detector_params.yaml\n'}
+[8.522273] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/config/follow_params.yaml\n'}
+[8.522309] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/rviz\n'}
+[8.522368] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/rviz/vision_config.rviz\n'}
+[8.522405] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/package_run_dependencies/pb_option1_vision\n'}
+[8.522458] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/parent_prefix_path/pb_option1_vision\n'}
+[8.522516] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/ament_prefix_path.sh\n'}
+[8.522584] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/ament_prefix_path.dsv\n'}
+[8.522650] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/path.sh\n'}
+[8.522718] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/environment/path.dsv\n'}
+[8.522779] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.bash\n'}
+[8.522841] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.sh\n'}
+[8.522910] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.zsh\n'}
+[8.522972] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/local_setup.dsv\n'}
+[8.523031] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/package.dsv\n'}
+[8.523116] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/ament_index/resource_index/packages/pb_option1_vision\n'}
+[8.523200] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/cmake/pb_option1_visionConfig.cmake\n'}
+[8.523258] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/cmake/pb_option1_visionConfig-version.cmake\n'}
+[8.523318] (pb_option1_vision) StdoutLine: {'line': b'-- Installing: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision/share/pb_option1_vision/package.xml\n'}
+[8.524298] (pb_option1_vision) CommandEnded: {'returncode': 0}
+[8.534517] (pb_option1_vision) JobEnded: {'identifier': 'pb_option1_vision', 'rc': 0}
+[8.534996] (-) EventReactorShutdown: {}
