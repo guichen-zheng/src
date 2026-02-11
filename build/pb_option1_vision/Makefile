@@ -211,19 +211,6 @@ object_detector/fast:
 .PHONY : object_detector/fast
 
 #=============================================================================
-# Target rules for targets named follow_behavior
-
-# Build rule for target.
-follow_behavior: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 follow_behavior
-.PHONY : follow_behavior
-
-# fast build rule for target.
-follow_behavior/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_behavior.dir/build.make CMakeFiles/follow_behavior.dir/build
-.PHONY : follow_behavior/fast
-
-#=============================================================================
 # Target rules for targets named command_interpreter
 
 # Build rule for target.
@@ -237,17 +224,17 @@ command_interpreter/fast:
 .PHONY : command_interpreter/fast
 
 #=============================================================================
-# Target rules for targets named test_hsv_with_morph
+# Target rules for targets named follow_behavior
 
 # Build rule for target.
-test_hsv_with_morph: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_hsv_with_morph
-.PHONY : test_hsv_with_morph
+follow_behavior: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 follow_behavior
+.PHONY : follow_behavior
 
 # fast build rule for target.
-test_hsv_with_morph/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hsv_with_morph.dir/build.make CMakeFiles/test_hsv_with_morph.dir/build
-.PHONY : test_hsv_with_morph/fast
+follow_behavior/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_behavior.dir/build.make CMakeFiles/follow_behavior.dir/build
+.PHONY : follow_behavior/fast
 
 src/command_interpreter_node.o: src/command_interpreter_node.cpp.o
 .PHONY : src/command_interpreter_node.o
@@ -321,30 +308,6 @@ src/object_detector_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/object_detector.dir/build.make CMakeFiles/object_detector.dir/src/object_detector_node.cpp.s
 .PHONY : src/object_detector_node.cpp.s
 
-src/test_hsv_with_morph.o: src/test_hsv_with_morph.cpp.o
-.PHONY : src/test_hsv_with_morph.o
-
-# target to build an object file
-src/test_hsv_with_morph.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hsv_with_morph.dir/build.make CMakeFiles/test_hsv_with_morph.dir/src/test_hsv_with_morph.cpp.o
-.PHONY : src/test_hsv_with_morph.cpp.o
-
-src/test_hsv_with_morph.i: src/test_hsv_with_morph.cpp.i
-.PHONY : src/test_hsv_with_morph.i
-
-# target to preprocess a source file
-src/test_hsv_with_morph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hsv_with_morph.dir/build.make CMakeFiles/test_hsv_with_morph.dir/src/test_hsv_with_morph.cpp.i
-.PHONY : src/test_hsv_with_morph.cpp.i
-
-src/test_hsv_with_morph.s: src/test_hsv_with_morph.cpp.s
-.PHONY : src/test_hsv_with_morph.s
-
-# target to generate assembly for a file
-src/test_hsv_with_morph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_hsv_with_morph.dir/build.make CMakeFiles/test_hsv_with_morph.dir/src/test_hsv_with_morph.cpp.s
-.PHONY : src/test_hsv_with_morph.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -363,7 +326,6 @@ help:
 	@echo "... command_interpreter"
 	@echo "... follow_behavior"
 	@echo "... object_detector"
-	@echo "... test_hsv_with_morph"
 	@echo "... src/command_interpreter_node.o"
 	@echo "... src/command_interpreter_node.i"
 	@echo "... src/command_interpreter_node.s"
@@ -373,9 +335,6 @@ help:
 	@echo "... src/object_detector_node.o"
 	@echo "... src/object_detector_node.i"
 	@echo "... src/object_detector_node.s"
-	@echo "... src/test_hsv_with_morph.o"
-	@echo "... src/test_hsv_with_morph.i"
-	@echo "... src/test_hsv_with_morph.s"
 .PHONY : help
 
 

@@ -1,17 +1,32 @@
-hsv_ranges:
-  apple:
-    lower1: [0, 100, 100]  # 加lower1/upper1/lower2/upper2处理红色
-    upper1: [15, 255, 255]
-    lower2: [170, 100, 100]
-    upper2: [180, 255, 255]
-    min_area: 2000
-    min_circularity: 0.7  # 圆形
-    aspect_ratio_min: 0.8
-    aspect_ratio_max: 1.2
-  banana:
-    lower: [20, 100, 100]
-    upper: [30, 255, 255]
-    min_area: 1500
-    min_circularity: 0.3  # 细长<0.5
-    aspect_ratio_min: 2.0  # 长>宽
-    aspect_ratio_max: 5.0
+hsv_range:
+  lower:
+    h: 0
+    s: 60
+    v: 40
+  upper:
+    h: 40
+    s: 255
+    v: 255
+
+morphology:
+  kernel_size: 5
+  iterations: 1
+
+detection:
+  min_area: 600.0
+
+apple:
+  min_circularity: 0.62
+  aspect_ratio_min: 0.7
+  aspect_ratio_max: 1.45
+  min_area: 800.0
+
+banana:
+  max_circularity: 0.40
+  aspect_ratio_min: 1.9
+  aspect_ratio_max: 6.0
+  min_area: 600.0
+
+action_mapping:
+  apple: "right_turn"     # 右转
+  banana: "left_turn"     # 左转

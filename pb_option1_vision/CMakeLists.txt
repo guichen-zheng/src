@@ -5,43 +5,32 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# 找到依赖
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(vision_msgs REQUIRED)
-find_package(OpenCV REQUIRED)  # OpenCV
-find_package(yaml-cpp REQUIRED)  # YAML
+find_package(OpenCV REQUIRED)
+find_package(yaml-cpp REQUIRED)
 find_package(ament_index_cpp REQUIRED)
+find_package(visualization_msgs REQUIRED)
 
-# 包含目录
-include_directories(include ${OpenCV_INCLUDE_DIRS})
-
-# 添加可执行文件
 add_executable(object_detector src/object_detector_node.cpp)
-ament_target_dependencies(object_detector rclcpp sensor_msgs cv_bridge vision_msgs OpenCV yaml-cpp)
-
-add_executable(follow_behavior src/follow_behavior_node.cpp)
-ament_target_dependencies(follow_behavior rclcpp geometry_msgs vision_msgs yaml-cpp)
+ament_target_dependencies(object_detector rclcpp sensor_msgs cv_bridge vision_msgs ament_index_cpp visualization_msgs)
+target_link_libraries(object_detector yaml-cpp ${OpenCV_LIBRARIES})
 
 add_executable(command_interpreter src/command_interpreter_node.cpp)
-ament_target_dependencies(command_interpreter rclcpp geometry_msgs vision_msgs yaml-cpp)
+ament_target_dependencies(command_interpreter rclcpp geometry_msgs vision_msgs ament_index_cpp)
+target_link_libraries(command_interpreter yaml-cpp ${OpenCV_LIBRARIES})
 
-add_executable(test_hsv_with_morph src/test_hsv_with_morph.cpp)
+add_executable(follow_behavior src/follow_behavior_node.cpp)
+ament_target_dependencies(follow_behavior rclcpp geometry_msgs vision_msgs ament_index_cpp)
+target_link_libraries(follow_behavior yaml-cpp ${OpenCV_LIBRARIES})
 
-target_link_libraries(object_detector yaml-cpp ament_index_cpp::ament_index_cpp ${OpenCV_LIBRARIES})
-target_link_libraries(follow_behavior yaml-cpp ament_index_cpp::ament_index_cpp)
-target_link_libraries(command_interpreter yaml-cpp ament_index_cpp::ament_index_cpp)
-target_link_libraries(test_hsv_with_morph ${OpenCV_LIBS})
-
-# 安装
 install(TARGETS
   object_detector
-  follow_behavior
   command_interpreter
+  follow_behavior
   DESTINATION lib/${PROJECT_NAME}
 )
 
