@@ -7,28 +7,19 @@
   <maintainer email="2830532983@qq.com">chen</maintainer>
   <license>Apache-2.0</license>
 
-  <buildtool_depend>ament_python</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- 核心依赖 -->
-  <depend>rclpy</depend>
-  <depend>ros2launch</depend>   <!-- 如果用到 IncludeLaunchDescription 等 -->
-
-  <!-- Gazebo 和相关 -->
+  <!-- 运行时依赖：根据你的 launch 文件实际启动的节点加 -->
   <exec_depend>gazebo_ros</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
-
-  <!-- 摄像头 -->
   <exec_depend>usb_cam</exec_depend>
+  <!-- <exec_depend>pb_option1_description</exec_depend>
+  <exec_depend>pb_option1_vision</exec_depend> -->
 
-  <!-- 你的其他包 -->
-  <exec_depend>pb_option1_description</exec_depend>
-  <exec_depend>pb_option1_vision</exec_depend>
-
-  <!-- 测试相关（可选） -->
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <!-- 可选：如果你用了 rclpy 或其他 Python 东西，可以加 -->
+  <!-- <exec_depend>rclpy</exec_depend> -->
 
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
