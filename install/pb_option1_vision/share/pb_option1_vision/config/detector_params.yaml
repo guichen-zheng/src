@@ -1,32 +1,27 @@
 hsv_range:
   lower:
     h: 0
-    s: 60
-    v: 40
+    s: 50
+    v: 60
   upper:
-    h: 40
+    h: 50
     s: 255
     v: 255
 
 morphology:
   kernel_size: 5
-  iterations: 1
 
 detection:
   min_area: 600.0
 
 apple:
-  min_circularity: 0.62
-  aspect_ratio_min: 0.7
-  aspect_ratio_max: 1.45
+  min_circularity: 0.60
+  aspect_ratio_min: 0.75
+  aspect_ratio_max: 1.40
   min_area: 800.0
 
 banana:
-  max_circularity: 0.40
-  aspect_ratio_min: 1.9
-  aspect_ratio_max: 6.0
+  max_circularity: 0.45
+  aspect_ratio_min: 1.8
+  aspect_ratio_max: 6.5
   min_area: 600.0
-
-action_mapping:
-  apple: "right_turn"     # 右转
-  banana: "left_turn"     # 左转
