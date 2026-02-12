@@ -81,3 +81,26 @@
         </plugin>
     </model>
 </sdf>
+  <!-- ==================== Gazebo Skid Steer 驱动插件 ==================== -->
+  <gazebo>
+    <plugin name="skid_steer_drive" filename="libgazebo_ros_skid_steer_drive.so">
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+      <update_rate>50</update_rate>
+
+      <!-- 四轮 joint 名字（根据你的实际文件确认） -->
+      <left_joints>front_left_wheel_joint, rear_left_wheel_joint</left_joints>
+      <right_joints>front_right_wheel_joint, rear_right_wheel_joint</right_joints>
+
+      <wheel_separation>0.45</wheel_separation>     <!-- 左右轮距离，单位米，可微调 -->
+      <wheel_diameter>0.10</wheel_diameter>         <!-- 轮子直径 -->
+      <max_wheel_torque>40.0</max_wheel_torque>
+      <max_wheel_acceleration>15.0</max_wheel_acceleration>
+
+      <command_topic>cmd_vel</command_topic>
+      <odometry_topic>odom</odometry_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+    </plugin>
+    </gazebo>

@@ -1,0 +1,60 @@
+[0.006s] Invoking command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.071s] -- The CXX compiler identification is GNU 11.4.0
+[0.075s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.122s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.122s] -- Detecting C compile features
+[0.122s] -- Detecting C compile features - done
+[0.124s] -- Detecting CXX compiler ABI info
+[0.172s] -- Detecting CXX compiler ABI info - done
+[0.181s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.182s] -- Detecting CXX compile features
+[0.182s] -- Detecting CXX compile features - done
+[0.184s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.325s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.379s] -- Configuring done
+[0.381s] -- Generating done
+[0.382s] -- Build files have been written to: /home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description
+[0.385s] Invoked command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/guichen/Documents/the_final_exam/the_final_exam/pb_option1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description
+[0.386s] Invoking command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description -- -j16 -l16
+[0.408s] Invoked command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description -- -j16 -l16
+[0.415s] Invoking command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description
+[0.420s] -- Install configuration: ""
+[0.420s] -- Execute custom install script
+[0.420s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//launch/robot_description_launch.py
+[0.427s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//params/robot_description.yaml
+[0.432s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/industrial_camera/meshes/industrial_camera.dae
+[0.438s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/industrial_camera/model.config
+[0.444s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/industrial_camera/model.sdf
+[0.449s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/industrial_camera/model.sdf.xmacro
+[0.455s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/mid360/meshes/mid360.dae
+[0.460s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/mid360/model.config
+[0.466s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/mid360/model.sdf
+[0.472s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/mid360/model.sdf.xmacro
+[0.477s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/rplidar_a2/meshes/rplidar_a2.dae
+[0.483s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/rplidar_a2/model.config
+[0.489s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/rplidar_a2/model.sdf
+[0.494s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/models/rplidar_a2/model.sdf.xmacro
+[0.500s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/xmacro/pb2025_infantry_robot.sdf.xmacro
+[0.505s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/xmacro/pb2025_sentry_robot.sdf.xmacro
+[0.511s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//resource/xmacro/simulation_robot.sdf.xmacro
+[0.517s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description//rviz/visualize_robot.rviz
+[0.522s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/environment/gazebo.dsv
+[0.528s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/ament_index/resource_index/package_run_dependencies/pb2025_robot_description
+[0.534s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/ament_index/resource_index/parent_prefix_path/pb2025_robot_description
+[0.539s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/environment/ament_prefix_path.sh
+[0.544s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/environment/ament_prefix_path.dsv
+[0.548s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/environment/path.sh
+[0.553s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/environment/path.dsv
+[0.558s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/local_setup.bash
+[0.563s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/local_setup.sh
+[0.567s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/local_setup.zsh
+[0.572s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/local_setup.dsv
+[0.577s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/package.dsv
+[0.582s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/ament_index/resource_index/packages/pb2025_robot_description
+[0.587s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/cmake/pb2025_robot_descriptionConfig.cmake
+[0.592s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/cmake/pb2025_robot_descriptionConfig-version.cmake
+[0.596s] -- Symlinking: /home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description/share/pb2025_robot_description/package.xml
+[0.602s] Invoked command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/guichen/Documents/the_final_exam/the_final_exam/build/pb2025_robot_description

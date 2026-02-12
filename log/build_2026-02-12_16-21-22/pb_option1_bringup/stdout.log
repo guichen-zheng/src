@@ -1,0 +1,9 @@
+running develop
+running egg_info
+creating pb_option1_bringup.egg-info
+writing pb_option1_bringup.egg-info/PKG-INFO
+writing dependency_links to pb_option1_bringup.egg-info/dependency_links.txt
+writing entry points to pb_option1_bringup.egg-info/entry_points.txt
+writing requirements to pb_option1_bringup.egg-info/requires.txt
+writing top-level names to pb_option1_bringup.egg-info/top_level.txt
+writing manifest file 'pb_option1_bringup.egg-info/SOURCES.txt'

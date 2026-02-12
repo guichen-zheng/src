@@ -1,0 +1,12 @@
+[0.415s] Invoking command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_bringup': CMAKE_PREFIX_PATH=/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description PYTHONPATH=/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_bringup/build --no-deps symlink_data
+[0.579s] running develop
+[0.702s] running egg_info
+[0.702s] creating pb_option1_bringup.egg-info
+[0.702s] writing pb_option1_bringup.egg-info/PKG-INFO
+[0.702s] writing dependency_links to pb_option1_bringup.egg-info/dependency_links.txt
+[0.702s] writing entry points to pb_option1_bringup.egg-info/entry_points.txt
+[0.702s] writing requirements to pb_option1_bringup.egg-info/requires.txt
+[0.702s] writing top-level names to pb_option1_bringup.egg-info/top_level.txt
+[0.702s] writing manifest file 'pb_option1_bringup.egg-info/SOURCES.txt'
+[0.703s] error: package directory 'pb_option1_bringup' does not exist
+[0.720s] Invoked command in '/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_bringup' returned '1': CMAKE_PREFIX_PATH=/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_vision:/home/guichen/Documents/the_final_exam/the_final_exam/install/pb2025_robot_description PYTHONPATH=/home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/guichen/Documents/the_final_exam/the_final_exam/install/pb_option1_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/guichen/Documents/the_final_exam/the_final_exam/build/pb_option1_bringup/build --no-deps symlink_data
