@@ -9,7 +9,7 @@ def generate_launch_description():
     # 物体检测节点
     object_detector = Node(
         package='pb_option1_vision',
-        executable='object_detector_node',
+        executable='object_detector',
         name='object_detector',
         parameters=[os.path.join(pkg_pb_option1_vision, 'config', 'detector_params.yaml')],
         remappings=[('/image', '/demo/image')]  # remap到真实摄像头topic
@@ -18,7 +18,7 @@ def generate_launch_description():
     # 跟随行为节点
     follow_behavior = Node(
         package='pb_option1_vision',
-        executable='follow_behavior_node',
+        executable='follow_behavior',
         name='follow_behavior',
         parameters=[os.path.join(pkg_pb_option1_vision, 'config', 'follow_params.yaml')]
     )
@@ -26,7 +26,7 @@ def generate_launch_description():
     # 命令解释节点
     command_interpreter = Node(
         package='pb_option1_vision',
-        executable='command_interpreter_node',
+        executable='command_interpreter',
         name='command_interpreter'
     )
 

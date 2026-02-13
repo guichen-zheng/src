@@ -25,19 +25,17 @@ def generate_launch_description():
     )
 
     # 3. Spawn 小车（必须保留！因为 description 里没有）
-    xacro_file = os.path.join(pkg_description, 'resource', 'xmacro', 'simulation_robot.sdf.xacro')
-
     spawn_robot = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
         arguments=[
-            '-file', xacro_file,
+            '-topic', 'robot_description',   # 从 robot_description_launch.py 读取
             '-entity', 'pb_robot',
-            '-x', '0',      # ← 世界中心 X
-            '-y', '0',      # ← 世界中心 Y
-            '-z', '0.25',   # ← 稍微抬高一点，防止卡地
-            '-Y', '0',      # ← 朝向（弧度），0=朝正前方
-            '--allow_renaming', 'true'   # 防止重名
+            '-x', '0',
+            '-y', '0',
+            '-z', '0.35',                    # 抬高一点防卡地
+            '-Y', '0',
+            '-timeout', '30'                 # 等待 robot_description 发布
         ],
         output='screen'
     )
