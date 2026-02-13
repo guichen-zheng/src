@@ -106,7 +106,7 @@ def launch_setup(context: LaunchContext) -> list:
 
 def generate_launch_description():
     # Get the launch directory
-    bringup_dir = get_package_share_directory("pb2025_robot_description")
+    bringup_dir = get_package_share_directory("pb_option1_description")
 
     declare_namespace_cmd = DeclareLaunchArgument(
         "namespace",

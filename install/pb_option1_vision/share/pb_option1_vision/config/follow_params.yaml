@@ -1,4 +1,0 @@
-target_distance: 1.0  # 米
-linear_gain: 0.25
-angular_gain: 0.003
-image_width: 640
