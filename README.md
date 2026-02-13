@@ -48,8 +48,36 @@ pb_option1_nav_vision/
 目前结构如此，后续可作出相应更改
 ### 一、pb_option1_bringup
 存放launch启动文件
+#### 1.sim.launch.py
+用于启动仿真（如需小车，请先执行下面pb_option1_description中的内容）
+以下是启动视觉仿真流程
+1. 编译
+```
+colcon build --symlink-install
+```
+2. 启动
+```
+source install/setup.bash
+ros2 launch pb_option1_bringup sim.launch.py
+```
+识别到的物品会在终端中给出（problem：在未放物品时持续检测到香蕉？）
 ### 二、pb_option1_description
-仓库中已有模型，此处不再赘述
+由于次模型利用了特殊的xmacro文件，需要特定库将其解释，而且此解释库不可保存在git,所以需要在每次运行有关使用小车模型的调试时，请先执行以下步骤
+1. 下载所用依赖
+```
+sudo apt install git-lfs
+pip install vcstool2
+```
+2. 将相关库导入
+```
+cd src/pb_option1_description
+vcs import --recursive < dependencies.repos
+mv joint_state_publisher rmoss_gz_resources sdformat_tools ..
+```
+3. 下载xmacro插件
+```
+pip install xmacro
+```
 ### 三、 pb_option1_navigation
 ### 四、 pb_option1_vision
 #### 调试流程：
@@ -57,11 +85,11 @@ pb_option1_nav_vision/
 ```
 colcon build --packages-select pb_option1_vision
 ```
-2. 先开启另一终端，启动相机节点(ros2自带实例)
+1. 先开启另一终端，启动相机节点(ros2自带实例)
 ```
 ros2 run image_tools cam2image --ros-args -p device_id:=0
 ```
-3. 回到原终端(launch中已设置好rviz)
+1. 回到原终端(launch中已设置好rviz)
 ```
 source install/setup.bash
 ros2 launch pb_option1_vision vision_and_follow.launch.py
