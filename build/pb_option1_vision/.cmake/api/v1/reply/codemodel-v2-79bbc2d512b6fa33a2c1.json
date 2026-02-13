@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-571ce3c280347f81572a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pb_option1_vision",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "command_interpreter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_interpreter-7e3be7aaf52560a5896a.json",
+					"name" : "command_interpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_behavior::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_behavior-a31e33694e7408ea6ce6.json",
+					"name" : "follow_behavior",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_detector-e885696bd91468581c4c.json",
+					"name" : "object_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_option1_vision_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_option1_vision_uninstall-3ca7f73294be11e1e3ad.json",
+					"name" : "pb_option1_vision_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5f2f21823f7ee5435aa1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_vision",
+		"source" : "/home/guichen/Documents/ws/the_final_exam/pb_option1_vision"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>pb_option1_sim</name>
+  <version>0.0.0</version>
+  <description>Simulation package for pb_option1 (Gazebo worlds + launch files)</description>
+  <maintainer email="your_email@example.com">guichen</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 构建工具 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 运行时依赖（launch 文件里会用到） -->
+  <depend>gazebo_ros</depend>
+  <depend>pb_option1_description</depend>   <!-- 用于 spawn 机器人 -->
+
+  <!-- 测试依赖（可选） -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

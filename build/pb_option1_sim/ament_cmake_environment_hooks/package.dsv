@@ -1,0 +1,4 @@
+source;share/pb_option1_sim/local_setup.bash
+source;share/pb_option1_sim/local_setup.dsv
+source;share/pb_option1_sim/local_setup.sh
+source;share/pb_option1_sim/local_setup.zsh
