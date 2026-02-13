@@ -1,0 +1,49 @@
+[0.833s] Invoking command in '/home/guichen/Documents/ws/src/sdformat_tools': PYTHONPATH=/home/guichen/Documents/ws/src/build/sdformat_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sdformat_tools build --build-base /home/guichen/Documents/ws/src/build/sdformat_tools/build install --record /home/guichen/Documents/ws/src/build/sdformat_tools/install.log --single-version-externally-managed install_data
+[0.998s] running egg_info
+[0.998s] creating ../build/sdformat_tools/sdformat_tools.egg-info
+[0.998s] writing ../build/sdformat_tools/sdformat_tools.egg-info/PKG-INFO
+[0.998s] writing dependency_links to ../build/sdformat_tools/sdformat_tools.egg-info/dependency_links.txt
+[0.999s] writing entry points to ../build/sdformat_tools/sdformat_tools.egg-info/entry_points.txt
+[0.999s] writing requirements to ../build/sdformat_tools/sdformat_tools.egg-info/requires.txt
+[0.999s] writing top-level names to ../build/sdformat_tools/sdformat_tools.egg-info/top_level.txt
+[1.000s] writing manifest file '../build/sdformat_tools/sdformat_tools.egg-info/SOURCES.txt'
+[1.001s] reading manifest file '../build/sdformat_tools/sdformat_tools.egg-info/SOURCES.txt'
+[1.001s] reading manifest template 'MANIFEST.in'
+[1.001s] adding license file 'LICENSE'
+[1.001s] writing manifest file '../build/sdformat_tools/sdformat_tools.egg-info/SOURCES.txt'
+[1.001s] running build
+[1.002s] running build_py
+[1.002s] creating /home/guichen/Documents/ws/src/build/sdformat_tools/build
+[1.002s] creating /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib
+[1.002s] creating /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools
+[1.002s] copying sdformat_tools/urdf_generator.py -> /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools
+[1.002s] copying sdformat_tools/xmacro4sdf.py -> /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools
+[1.002s] copying sdformat_tools/sdf2urdf.py -> /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools
+[1.002s] copying sdformat_tools/sdf_util.py -> /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools
+[1.002s] copying sdformat_tools/__init__.py -> /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools
+[1.002s] running install
+[1.002s] running install_lib
+[1.002s] creating /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools
+[1.002s] copying /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools/urdf_generator.py -> /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools
+[1.002s] copying /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools/xmacro4sdf.py -> /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools
+[1.003s] copying /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools/sdf2urdf.py -> /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools
+[1.003s] copying /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools/sdf_util.py -> /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools
+[1.003s] copying /home/guichen/Documents/ws/src/build/sdformat_tools/build/lib/sdformat_tools/__init__.py -> /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools
+[1.003s] byte-compiling /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools/urdf_generator.py to urdf_generator.cpython-310.pyc
+[1.004s] byte-compiling /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools/xmacro4sdf.py to xmacro4sdf.cpython-310.pyc
+[1.004s] byte-compiling /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools/sdf2urdf.py to sdf2urdf.cpython-310.pyc
+[1.005s] byte-compiling /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools/sdf_util.py to sdf_util.cpython-310.pyc
+[1.006s] byte-compiling /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools/__init__.py to __init__.cpython-310.pyc
+[1.006s] running install_data
+[1.006s] creating /home/guichen/Documents/ws/src/install/sdformat_tools/share/ament_index
+[1.006s] creating /home/guichen/Documents/ws/src/install/sdformat_tools/share/ament_index/resource_index
+[1.006s] creating /home/guichen/Documents/ws/src/install/sdformat_tools/share/ament_index/resource_index/packages
+[1.006s] copying resource/sdformat_tools -> /home/guichen/Documents/ws/src/install/sdformat_tools/share/ament_index/resource_index/packages
+[1.006s] copying package.xml -> /home/guichen/Documents/ws/src/install/sdformat_tools/share/sdformat_tools
+[1.006s] running install_egg_info
+[1.008s] Copying ../build/sdformat_tools/sdformat_tools.egg-info to /home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages/sdformat_tools-0.0.1-py3.10.egg-info
+[1.008s] running install_scripts
+[1.023s] Installing sdf2urdf script to /home/guichen/Documents/ws/src/install/sdformat_tools/bin
+[1.023s] Installing xmacro4sdf script to /home/guichen/Documents/ws/src/install/sdformat_tools/bin
+[1.023s] writing list of installed files to '/home/guichen/Documents/ws/src/build/sdformat_tools/install.log'
+[1.048s] Invoked command in '/home/guichen/Documents/ws/src/sdformat_tools' returned '0': PYTHONPATH=/home/guichen/Documents/ws/src/build/sdformat_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/guichen/Documents/ws/src/install/sdformat_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sdformat_tools build --build-base /home/guichen/Documents/ws/src/build/sdformat_tools/build install --record /home/guichen/Documents/ws/src/build/sdformat_tools/install.log --single-version-externally-managed install_data

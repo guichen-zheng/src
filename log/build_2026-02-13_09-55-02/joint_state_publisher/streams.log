@@ -1,0 +1,38 @@
+[0.833s] Invoking command in '/home/guichen/Documents/ws/src/joint_state_publisher/joint_state_publisher': PYTHONPATH=/home/guichen/Documents/ws/src/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher build --build-base /home/guichen/Documents/ws/src/build/joint_state_publisher/build install --record /home/guichen/Documents/ws/src/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[0.995s] running egg_info
+[0.996s] creating ../../build/joint_state_publisher/joint_state_publisher.egg-info
+[0.996s] writing ../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO
+[0.996s] writing dependency_links to ../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt
+[0.997s] writing entry points to ../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt
+[0.997s] writing requirements to ../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt
+[0.998s] writing top-level names to ../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt
+[0.998s] writing manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.998s] reading manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.998s] adding license file 'LICENSE'
+[0.998s] writing manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[0.998s] running build
+[0.998s] running build_py
+[0.998s] creating /home/guichen/Documents/ws/src/build/joint_state_publisher/build
+[0.998s] creating /home/guichen/Documents/ws/src/build/joint_state_publisher/build/lib
+[0.998s] creating /home/guichen/Documents/ws/src/build/joint_state_publisher/build/lib/joint_state_publisher
+[0.998s] copying joint_state_publisher/joint_state_publisher.py -> /home/guichen/Documents/ws/src/build/joint_state_publisher/build/lib/joint_state_publisher
+[0.998s] copying joint_state_publisher/__init__.py -> /home/guichen/Documents/ws/src/build/joint_state_publisher/build/lib/joint_state_publisher
+[0.998s] running install
+[0.998s] running install_lib
+[0.999s] creating /home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher
+[0.999s] copying /home/guichen/Documents/ws/src/build/joint_state_publisher/build/lib/joint_state_publisher/joint_state_publisher.py -> /home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher
+[0.999s] copying /home/guichen/Documents/ws/src/build/joint_state_publisher/build/lib/joint_state_publisher/__init__.py -> /home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher
+[0.999s] byte-compiling /home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher/joint_state_publisher.py to joint_state_publisher.cpython-310.pyc
+[1.001s] byte-compiling /home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher/__init__.py to __init__.cpython-310.pyc
+[1.001s] running install_data
+[1.001s] creating /home/guichen/Documents/ws/src/install/joint_state_publisher/share/ament_index
+[1.002s] creating /home/guichen/Documents/ws/src/install/joint_state_publisher/share/ament_index/resource_index
+[1.002s] creating /home/guichen/Documents/ws/src/install/joint_state_publisher/share/ament_index/resource_index/packages
+[1.002s] copying resource/joint_state_publisher -> /home/guichen/Documents/ws/src/install/joint_state_publisher/share/ament_index/resource_index/packages
+[1.002s] copying package.xml -> /home/guichen/Documents/ws/src/install/joint_state_publisher/share/joint_state_publisher
+[1.002s] running install_egg_info
+[1.003s] Copying ../../build/joint_state_publisher/joint_state_publisher.egg-info to /home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info
+[1.004s] running install_scripts
+[1.018s] Installing joint_state_publisher script to /home/guichen/Documents/ws/src/install/joint_state_publisher/lib/joint_state_publisher
+[1.018s] writing list of installed files to '/home/guichen/Documents/ws/src/build/joint_state_publisher/install.log'
+[1.037s] Invoked command in '/home/guichen/Documents/ws/src/joint_state_publisher/joint_state_publisher' returned '0': PYTHONPATH=/home/guichen/Documents/ws/src/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/guichen/Documents/ws/src/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joint_state_publisher build --build-base /home/guichen/Documents/ws/src/build/joint_state_publisher/build install --record /home/guichen/Documents/ws/src/build/joint_state_publisher/install.log --single-version-externally-managed install_data

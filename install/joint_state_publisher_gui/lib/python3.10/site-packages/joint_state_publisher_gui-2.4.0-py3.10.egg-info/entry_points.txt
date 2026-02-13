@@ -1,0 +1,3 @@
+[console_scripts]
+joint_state_publisher_gui = joint_state_publisher_gui.joint_state_publisher_gui:main
+

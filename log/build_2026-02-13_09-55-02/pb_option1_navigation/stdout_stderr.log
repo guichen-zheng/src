@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/pb_option1_navigation/pb_option1_navigation.egg-info
+writing ../build/pb_option1_navigation/pb_option1_navigation.egg-info/PKG-INFO
+writing dependency_links to ../build/pb_option1_navigation/pb_option1_navigation.egg-info/dependency_links.txt
+writing entry points to ../build/pb_option1_navigation/pb_option1_navigation.egg-info/entry_points.txt
+writing requirements to ../build/pb_option1_navigation/pb_option1_navigation.egg-info/requires.txt
+writing top-level names to ../build/pb_option1_navigation/pb_option1_navigation.egg-info/top_level.txt
+writing manifest file '../build/pb_option1_navigation/pb_option1_navigation.egg-info/SOURCES.txt'
+reading manifest file '../build/pb_option1_navigation/pb_option1_navigation.egg-info/SOURCES.txt'
+writing manifest file '../build/pb_option1_navigation/pb_option1_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/guichen/Documents/ws/src/build/pb_option1_navigation/build
+creating /home/guichen/Documents/ws/src/build/pb_option1_navigation/build/lib
+creating /home/guichen/Documents/ws/src/build/pb_option1_navigation/build/lib/pb_option1_navigation
+copying pb_option1_navigation/__init__.py -> /home/guichen/Documents/ws/src/build/pb_option1_navigation/build/lib/pb_option1_navigation
+running install
+running install_lib
+creating /home/guichen/Documents/ws/src/install/pb_option1_navigation/lib/python3.10/site-packages/pb_option1_navigation
+copying /home/guichen/Documents/ws/src/build/pb_option1_navigation/build/lib/pb_option1_navigation/__init__.py -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/lib/python3.10/site-packages/pb_option1_navigation
+byte-compiling /home/guichen/Documents/ws/src/install/pb_option1_navigation/lib/python3.10/site-packages/pb_option1_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/ament_index
+creating /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/ament_index/resource_index
+creating /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/ament_index/resource_index/packages
+copying resource/pb_option1_navigation -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation
+creating /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/launch
+copying launch/nav2_bringup.launch.py -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/launch
+copying launch/localization.launch.py -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/launch
+copying launch/slam.launch.py -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/launch
+creating /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/config
+copying config/slam_params.yaml -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/config
+copying config/amcl_params.yaml -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/config
+copying config/nav2_params.yaml -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/config
+creating /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/maps
+copying maps/map.pgm -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/maps
+copying maps/map.yaml -> /home/guichen/Documents/ws/src/install/pb_option1_navigation/share/pb_option1_navigation/maps
+running install_egg_info
+Copying ../build/pb_option1_navigation/pb_option1_navigation.egg-info to /home/guichen/Documents/ws/src/install/pb_option1_navigation/lib/python3.10/site-packages/pb_option1_navigation-0.1.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/guichen/Documents/ws/src/build/pb_option1_navigation/install.log'

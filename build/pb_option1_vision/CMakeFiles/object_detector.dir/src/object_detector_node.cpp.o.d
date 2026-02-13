@@ -1,5 +1,5 @@
 CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o: \
- /home/guichen/Documents/ws/the_final_exam/pb_option1_vision/src/object_detector_node.cpp \
+ /home/guichen/Documents/ws/src/pb_option1_vision/src/object_detector_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /usr/include/c++/11/string \

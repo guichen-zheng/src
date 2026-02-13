@@ -1,8 +1,8 @@
-# Install script for directory: /home/guichen/Documents/ws/the_final_exam/pb_option1_description
+# Install script for directory: /home/guichen/Documents/ws/src/pb_option1_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/guichen/Documents/ws/the_final_exam/install/pb_option1_description")
+  set(CMAKE_INSTALL_PREFIX "/home/guichen/Documents/ws/src/install/pb_option1_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,23 +44,23 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/" TYPE DIRECTORY FILES
-    "/home/guichen/Documents/ws/the_final_exam/pb_option1_description/launch"
-    "/home/guichen/Documents/ws/the_final_exam/pb_option1_description/params"
-    "/home/guichen/Documents/ws/the_final_exam/pb_option1_description/resource"
-    "/home/guichen/Documents/ws/the_final_exam/pb_option1_description/rviz"
+    "/home/guichen/Documents/ws/src/pb_option1_description/launch"
+    "/home/guichen/Documents/ws/src/pb_option1_description/params"
+    "/home/guichen/Documents/ws/src/pb_option1_description/resource"
+    "/home/guichen/Documents/ws/src/pb_option1_description/rviz"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/environment" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/gazebo.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/environment" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/gazebo.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pb_option1_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pb_option1_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pb_option1_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pb_option1_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/environment" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/environment" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -76,42 +76,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/environment" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/environment" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_index/share/ament_index/resource_index/packages/pb_option1_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_index/share/ament_index/resource_index/packages/pb_option1_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description/cmake" TYPE FILE FILES
-    "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_core/pb_option1_descriptionConfig.cmake"
-    "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/ament_cmake_core/pb_option1_descriptionConfig-version.cmake"
+    "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_core/pb_option1_descriptionConfig.cmake"
+    "/home/guichen/Documents/ws/src/build/pb_option1_description/ament_cmake_core/pb_option1_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/the_final_exam/pb_option1_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb_option1_description" TYPE FILE FILES "/home/guichen/Documents/ws/src/pb_option1_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -122,5 +122,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/guichen/Documents/ws/the_final_exam/build/pb_option1_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/guichen/Documents/ws/src/build/pb_option1_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

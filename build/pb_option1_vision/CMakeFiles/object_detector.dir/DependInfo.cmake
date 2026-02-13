@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/guichen/Documents/ws/the_final_exam/pb_option1_vision/src/object_detector_node.cpp" "CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o" "gcc" "CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o.d"
+  "/home/guichen/Documents/ws/src/pb_option1_vision/src/object_detector_node.cpp" "CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o" "gcc" "CMakeFiles/object_detector.dir/src/object_detector_node.cpp.o.d"
   )
 
 # Targets to which this target links.

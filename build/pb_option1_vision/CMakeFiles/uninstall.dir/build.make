@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/guichen/Documents/ws/the_final_exam/pb_option1_vision
+CMAKE_SOURCE_DIR = /home/guichen/Documents/ws/src/pb_option1_vision
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/guichen/Documents/ws/the_final_exam/build/pb_option1_vision
+CMAKE_BINARY_DIR = /home/guichen/Documents/ws/src/build/pb_option1_vision
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/guichen/Documents/ws/the_final_exam/build/pb_option1_vision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/guichen/Documents/ws/the_final_exam/pb_option1_vision /home/guichen/Documents/ws/the_final_exam/pb_option1_vision /home/guichen/Documents/ws/the_final_exam/build/pb_option1_vision /home/guichen/Documents/ws/the_final_exam/build/pb_option1_vision /home/guichen/Documents/ws/the_final_exam/build/pb_option1_vision/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/guichen/Documents/ws/src/build/pb_option1_vision && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/guichen/Documents/ws/src/pb_option1_vision /home/guichen/Documents/ws/src/pb_option1_vision /home/guichen/Documents/ws/src/build/pb_option1_vision /home/guichen/Documents/ws/src/build/pb_option1_vision /home/guichen/Documents/ws/src/build/pb_option1_vision/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
