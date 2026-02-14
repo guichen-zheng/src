@@ -25,3 +25,7 @@ banana:
   aspect_ratio_min: 1.8
   aspect_ratio_max: 6.5
   min_area: 600.0
+
+action_mapping:
+  apple: "right_turn"     # 右转
+  banana: "left_turn"     # 左转  
