@@ -60,6 +60,7 @@ colcon build --symlink-install
 source install/setup.bash
 ros2 launch pb_option1_bringup sim.launch.py
 ```
+3. 在rviz中添加/image下的image，和makerarray
 识别到的物品会在终端中给出（problem：在未放物品时持续检测到香蕉？）
 ### 二、pb_option1_description
 由于次模型利用了特殊的xmacro文件，需要特定库将其解释，而且此解释库不可保存在git,所以需要在每次运行有关使用小车模型的调试时，请先执行以下步骤
@@ -85,11 +86,11 @@ pip install xmacro
 ```
 colcon build --packages-select pb_option1_vision
 ```
-1. 先开启另一终端，启动相机节点(ros2自带实例)
+2. 先开启另一终端，启动相机节点(ros2自带实例)
 ```
 ros2 run image_tools cam2image --ros-args -p device_id:=0
 ```
-1. 回到原终端(launch中已设置好rviz)
+3. 回到原终端(launch中已设置好rviz)
 ```
 source install/setup.bash
 ros2 launch pb_option1_vision vision_and_follow.launch.py

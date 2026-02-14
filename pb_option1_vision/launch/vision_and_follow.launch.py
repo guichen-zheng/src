@@ -34,7 +34,7 @@ def generate_launch_description():
     rviz = Node(
         package='rviz2',
         executable='rviz2',
-        arguments=['-d', os.path.join(pkg_pb_option1_vision, 'rviz', 'vision.rviz')]  # 假设有rviz config
+        arguments=['-d', os.path.join(pkg_pb_option1_vision, 'rviz', 'vision_config.rviz')]  # 假设有rviz config
     )
 
     return LaunchDescription([
