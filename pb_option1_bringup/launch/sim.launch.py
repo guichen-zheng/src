@@ -74,5 +74,5 @@ def generate_launch_description():
         spawn_robot,          # ← 必须保留
         usb_cam,
         object_detector,
-        follow_behavior,
+        follow_behavior
     ])

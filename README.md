@@ -60,7 +60,7 @@ colcon build --symlink-install
 source install/setup.bash
 ros2 launch pb_option1_bringup sim.launch.py
 ```
-3. 在rviz中添加/image下的image，和makerarray
+3. 在rviz中添加/detection/image_annotated/image
 识别到的物品会在终端中给出（problem：在未放物品时持续检测到香蕉？）
 ### 二、pb_option1_description
 由于次模型利用了特殊的xmacro文件，需要特定库将其解释，而且此解释库不可保存在git,所以需要在每次运行有关使用小车模型的调试时，请先执行以下步骤
@@ -69,11 +69,12 @@ ros2 launch pb_option1_bringup sim.launch.py
 sudo apt install git-lfs
 pip install vcstool2
 ```
-2. 将相关库导入
+2. 将相关库导入(在workspace下运行)
 ```
 cd src/pb_option1_description
 vcs import --recursive < dependencies.repos
 mv joint_state_publisher rmoss_gz_resources sdformat_tools ..
+cd ../..
 ```
 3. 下载xmacro插件
 ```
