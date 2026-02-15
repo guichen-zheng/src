@@ -5,37 +5,43 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+# 查找依赖
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(sensor_msgs REQUIRED)
-find_package(cv_bridge REQUIRED)
-find_package(vision_msgs REQUIRED)
-find_package(OpenCV REQUIRED)
-find_package(yaml-cpp REQUIRED)
-find_package(ament_index_cpp REQUIRED)
-find_package(visualization_msgs REQUIRED)
+find_package(ament_cmake_python REQUIRED)
+find_package(rclpy REQUIRED)
 
-add_executable(object_detector src/object_detector_node.cpp)
-ament_target_dependencies(object_detector rclcpp sensor_msgs cv_bridge vision_msgs ament_index_cpp visualization_msgs)
-target_link_libraries(object_detector yaml-cpp ${OpenCV_LIBRARIES})
+# 安装Python模块
+ament_python_install_package(${PROJECT_NAME})
 
-add_executable(command_interpreter src/command_interpreter_node.cpp)
-ament_target_dependencies(command_interpreter rclcpp geometry_msgs vision_msgs ament_index_cpp)
-target_link_libraries(command_interpreter yaml-cpp ${OpenCV_LIBRARIES})
-
-add_executable(follow_behavior src/follow_behavior_node.cpp)
-ament_target_dependencies(follow_behavior rclcpp geometry_msgs vision_msgs ament_index_cpp)
-target_link_libraries(follow_behavior yaml-cpp ${OpenCV_LIBRARIES})
-
-install(TARGETS
-  object_detector
-  command_interpreter
-  follow_behavior
+# 安装Python可执行文件
+install(PROGRAMS
+  src/object_detector.py
+  src/follow_behavior_node.py
+  src/command_interpreter_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
-install(DIRECTORY launch config rviz
-  DESTINATION share/${PROJECT_NAME}
+# 安装launch文件
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
 )
+
+# 安装config文件
+install(DIRECTORY
+  config
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+# 安装models目录
+install(DIRECTORY
+  models
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
 ament_package()
