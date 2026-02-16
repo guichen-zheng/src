@@ -3,19 +3,19 @@
 <package format="3">
   <name>pb_option1_vision</name>
   <version>1.0.0</version>
-  <description>基于YOLO的物体识别与跟随系统</description>
-  <maintainer email="2830532983@qq.com">Your Name</maintainer>
+  <description>基于YOLO的物体识别与跟随系统(C++实现)</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <buildtool_depend>ament_cmake_python</buildtool_depend>
 
-  <depend>rclpy</depend>
+  <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>cv_bridge</depend>
-  <depend>vision_msgs</depend>
+  <depend>opencv</depend>
+  <depend>yaml-cpp</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
