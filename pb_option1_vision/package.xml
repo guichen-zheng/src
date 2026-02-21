@@ -1,28 +1,24 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>pb_option1_vision</name>
-  <version>0.0.1</version>  <!-- 根据原仓库调整 -->
-  <description>Vision package for pb_option1 using YOLOv8</description>
-  <maintainer email="your_email@example.com">guichen-zheng</maintainer>
-  <license>Apache-2.0</license>  <!-- 根据原仓库调整 -->
+  <n>pb_option1_vision</n>
+  <version>1.0.0</version>
+  <description>YOLO-based vision system for object detection and following</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
 
-  <build_type>ament_python</build_type>  <!-- 修改为 ament_python -->
+  <buildtool_depend>ament_python</buildtool_depend>
 
-  <!-- 构建依赖：移除 C++ 相关，如 rclcpp -->
-  <buildtool_depend>ament_python</buildtool_depend>  <!-- 可选，如果有混合，但纯 Python 可移除 -->
-
-  <!-- 运行依赖：添加 Python 相关 -->
   <depend>rclpy</depend>
-  <depend>cv_bridge</depend>
+  <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
-  <depend>std_msgs</depend>
-  <exec_depend>ultralytics</exec_depend>  <!-- YOLO 依赖，需要 pip install ultralytics -->
-  <!-- 保留其他通用依赖，如 image_transport 如果有 -->
+  <depend>cv_bridge</depend>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
 
   <export>
     <build_type>ament_python</build_type>

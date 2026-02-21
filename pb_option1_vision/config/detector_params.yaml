@@ -1,10 +1,9 @@
-# detector_params.yaml
-
-object_detector_node:
+/**:
   ros__parameters:
-    model_path: "yolo8n.pt"  # 修改为 YOLOv8n.pt 模型路径
+    # YOLO模型配置
+    model_path: "yolov8n.pt"
     confidence_threshold: 0.5
-    target_classes: ['cup', 'apple', 'banana']  # 目标类别，根据需要调整
-    image_topic: "/image"  # 输入图像话题
-    device: "cpu"  # 使用 CPU 或 cuda，如果有 GPU
-    # 移除任何 ONNX 或 OpenCV DNN 特定参数，如 onnx_model 或 dnn_backend
+    device: "cpu"  # "cpu" 或 "cuda"
+    
+    # 目标类别 (COCO dataset)
+    # cup: 41, apple: 47, banana: 46
