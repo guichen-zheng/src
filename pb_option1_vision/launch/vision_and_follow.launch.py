@@ -31,7 +31,7 @@ def generate_launch_description():
     # 物体检测节点
     detector_node = Node(
         package='pb_option1_vision',
-        executable='object_detector.py',
+        executable='object_detector_node',
         name='object_detector_node',
         output='screen',
         parameters=[
@@ -43,7 +43,7 @@ def generate_launch_description():
     # 命令解释节点 (命令模式)
     command_node = Node(
         package='pb_option1_vision',
-        executable='command_interpreter_node.py',
+        executable='command_interpreter_node',
         name='command_interpreter_node',
         output='screen',
         parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
@@ -54,7 +54,7 @@ def generate_launch_description():
     # 跟随节点 (跟随模式)
     follow_node = Node(
         package='pb_option1_vision',
-        executable='follow_behavior_node.py',
+        executable='follow_behavior_node',
         name='follow_behavior_node',
         output='screen',
         parameters=[
